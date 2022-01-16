@@ -1,0 +1,17 @@
+package com.trigger.dsa.problemsolving;
+
+import java.util.Scanner;
+
+class PrimeTillN {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		int low = sc.nextInt();
+		int high = sc.nextInt();
+		for(int n=low; n<=high; n++) {
+			System.out.println(n);
+		}
+	}
+
+}
